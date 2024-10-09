@@ -41,6 +41,19 @@ To run the Streamlit app, execute the following command in your terminal:
 streamlit run app.py
 ```
 Once the app is running, you can access it by navigating to http://localhost:8501 in your browser.
+## Screenshots
+Here are some screenshots of the app in action:
+## Input pdf (attached in repo)
+![test_page-0001](https://github.com/user-attachments/assets/05e98d86-5ee3-4eb2-bdf0-9f9d15a272e1)
+
+
+## Upload PDF Interface
+![image](https://github.com/user-attachments/assets/86641fc5-9458-4fd3-84e2-28167847539c)
+
+
+## Extracted Text and Tables
+![image](https://github.com/user-attachments/assets/945100b7-e7cb-4bd9-acc7-b7c12baef218)
+![image](https://github.com/user-attachments/assets/60a497dc-db64-48a9-aa79-aa0b7a2573e6)
 
 ## How to Use
 - Upload a PDF file using the file uploader in the app.
