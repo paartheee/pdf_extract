@@ -13,13 +13,10 @@ This repository contains a **Streamlit** web application that allows users to up
 
 ### Prerequisites
 
-Make sure you have **Python 3.x** installed. You can install the required dependencies by running:
+Make sure you have **Python 3.x** installed. 
 
-```bash
-pip install streamlit pdfplumber pandas
-```
-Installation
-Clone this repository:
+
+Installation - Clone this repository:
 
 ```bash
 git clone https://github.com/paartheee/pdf-text-table-extractor.git
@@ -41,17 +38,17 @@ To run the Streamlit app, execute the following command in your terminal:
 streamlit run app.py
 ```
 Once the app is running, you can access it by navigating to http://localhost:8501 in your browser.
-## Screenshots
+### Screenshots
 Here are some screenshots of the app in action:
-## Input pdf (attached in repo)
+### Input pdf (attached in repo)
 ![test_page-0001](https://github.com/user-attachments/assets/05e98d86-5ee3-4eb2-bdf0-9f9d15a272e1)
 
 
-## Upload PDF Interface
+### Upload PDF Interface
 ![image](https://github.com/user-attachments/assets/86641fc5-9458-4fd3-84e2-28167847539c)
 
 
-## Extracted Text and Tables
+### Extracted Text and Tables
 ![image](https://github.com/user-attachments/assets/945100b7-e7cb-4bd9-acc7-b7c12baef218)
 ![image](https://github.com/user-attachments/assets/60a497dc-db64-48a9-aa79-aa0b7a2573e6)
 
@@ -60,13 +57,13 @@ Here are some screenshots of the app in action:
 - The app will automatically extract the text and tables from the PDF.
 - Extracted tables are converted to Markdown and displayed along with the text.
 ## Code Explanation
-## **process_pdf(pdf_file)**
+### **process_pdf(pdf_file)**
 - This function uses pdfplumber to open and read the uploaded PDF file.
 - It extracts both the text and tables from the PDF.
 - The tables are detected and extracted using pdfplumber's table detection capabilities, then converted into Markdown format.
 - The extracted content is concatenated into a single output, which is then returned as a string.
 
-## **main()**
+### **main()**
 
 - The main() function defines the Streamlit app interface.
 - It allows users to upload PDF files.
