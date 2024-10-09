@@ -19,11 +19,11 @@ Make sure you have **Python 3.x** installed.
 Installation - Clone this repository:
 
 ```bash
-git clone https://github.com/paartheee/pdf-text-table-extractor.git
+git clone https://github.com/paartheee/pdf_extract.git
 ```
 Navigate into the project directory:
 ```bash
-cd pdf-text-table-extractor
+cd pdf_extract
 ```
 Install the necessary dependencies:
 
